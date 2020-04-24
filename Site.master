@@ -1,0 +1,96 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <title>Hangout</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="css/images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all">
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <!--[if lt IE 9]><script src="js/modernizr.custom.js"></script><![endif]-->
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/functions.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+    </asp:ToolkitScriptManager>
+    <!-- wrapper -->
+    <div id="wrapper">
+        <!-- shell -->
+        <div class="shell">
+            <!-- container -->
+            <div class="container">
+                <!-- header -->
+                <header class="header">
+        <h1 id="logo"><a href="default.aspx">Hangout</a></h1>
+      <asp:ContentPlaceHolder ID="NavContent" runat="server">
+          <nav id="navigation">
+              <ul runat="server" id="menu">
+                  <li><a href="default.aspx">Home</a></li>
+                  <li><a href="about.aspx">About Us</a></li>
+                  <li><a href="projects.aspx">Project Info</a></li>
+                  <li>
+                      <asp:LinkButton ID="lnkLogin" runat="server" OnClick="lnkLogin_Click">Login</asp:LinkButton>
+                  </li>
+              </ul>
+          </nav>
+      </asp:ContentPlaceHolder>
+        <div class="cl">&nbsp;</div>
+      </header>
+                <!-- end of header -->
+                <div class="main">
+                    <!-- slider -->
+                    <div class="flexslider" style="height: 150px;">
+                        <ul class="slides">
+                            <li>
+                                <img src="css/images/slide-img1.jpg" alt="Social Media" />
+                                <div class="slide-cnt">
+                                    <h2>
+                                        HangOut
+                                        <br />
+                                        Social Networking                     This aims at the development of Multilevel Access Control to communicate and share
+                                        information and ideas. CAML is based on Bioinformatics. The authentication is done
+                                        using the finger print/face scanned image.</p>
+                                </div>
+                        </ul>
+                    </div>
+                    <!-- end of slider -->
+                    <!-- cols -->
+                    <section class="cols">
+         
+        <asp:ContentPlaceHolder id="MainContent" runat="server">        
+        </asp:ContentPlaceHolder>
+        </section>
+                    <section class="services">
+          <div class="cl">&nbsp;</div>
+        </section>
+                    <!-- end of services -->
+                </div>
+                <!-- end of main -->
+            </div>
+            <!-- end of container -->
+            <div class="footer">
+                <nav class="footer-nav">
+        <ul>
+          <li><a href="default.aspx">Home</a></li>
+          <li><a href="about.aspx">About Us</a></li>
+          <li><a href="contacts.aspx">Contact</a></li>
+        </ul>
+      </nav>
+                <p class="copy">
+                    Copyright &copy; 2014 All Rights Reserved.
+                </p>
+            </div>
+        </div>
+        <!-- end of shell -->
+    </div>
+    <!-- end of wrapper-->
+    </form>
+</body>
+</html>

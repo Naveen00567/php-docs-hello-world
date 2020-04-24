@@ -1,0 +1,93 @@
+﻿.MainTab
+{
+	font-family: Tahoma;
+	font-size: 3.3mm;
+	color: #000066;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.subTab1
+{
+	border-left: 1px solid #B7B7FF;
+	border-right: 1px solid #B7B7FF;
+	border-top: 1px solid #B7B7FF;
+	border-bottom-width: 1px;
+	font-family: Tahoma;
+	font-size: 3.3mm;
+	color: #000066;
+}
+.subTab1Sel
+{
+	border-left: 1px solid #B7B7FF;
+	border-right: 1px solid #B7B7FF;
+	border-top: 1px solid #B7B7FF;
+	border-bottom-width: 1px;
+	font-family: Tahoma;
+	font-size: 3.3mm;
+	color: #000066;
+	background-color: #E6EAFF;
+}
+.subTab2
+{
+}
+.subTab2Sel
+{
+	border-left: 1px solid #B7B7FF;
+	border-right: 1px solid #B7B7FF;
+	border-top: 1px solid #B7B7FF;
+	border-bottom-width: 1px;
+	font-family: Tahoma;
+	font-size: 3.3mm;
+	color: #000066;
+	background-color: #E6EAFF;
+}
+.DataBorder
+{
+	border: 1px solid #B7B7FF;
+}
+.Normal
+{
+	font-family: Tahoma;
+	font-size: 3.0mm;
+}
+.Button
+{
+	font-family: Tahoma;
+	font-size: 3.0mm;
+	color: #000080;
+	font-weight: bold;
+	border: 1px solid #B7B7FF;
+}
+.DataLables
+{
+	font-family: Tahoma;
+	font-size: 3mm;
+	color: #003366;
+	font-weight: bold;
+}
+.DataHeaders
+{
+	font-family: Tahoma;
+	font-size: 3mm;
+	color: #800000;
+	font-weight: bold;
+	border-left-width: 1px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+.Lstbox
+{
+	border: 1px solid #000080;
+	font-family: Tahoma;
+	font-size: 3mm;
+	color: #000000;
+}
+.DataDisplay
+{
+	font-family: Tahoma;
+	font-size: 3.0mm;
+	color: #000080;
+}
